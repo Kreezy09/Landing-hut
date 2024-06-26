@@ -13,7 +13,7 @@ function Footer() {
             transition={{ duration: 0.8 }}
           >
             <img
-              src={require("../images/logo/logo.png")}
+              src={require("../images/logo/logo-01.png")}
               alt="logo"
               className="mb-3"
             />
@@ -59,7 +59,7 @@ function Footer() {
           transition={{ duration: 0.8 }}
           className="d-flex justify-content-between flex-column flex-md-row flex-wrap gray-100 pt-3"
         >
-          <p>© 2023 TMS. All rights reserved</p>
+          <p>© 2024 TMS. All rights reserved</p>
           <p>
             Design by{" "}
             <Link className="link-primary link-underline-opacity-0" to={""}>

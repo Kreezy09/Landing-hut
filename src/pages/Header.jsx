@@ -20,10 +20,10 @@ function Loading() {
           animate={{ x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <AnimationTitles title="Future of real estate investing" />
+          <AnimationTitles title="Future of Property Management" />
           <p className="gray-90 mt-3 fs-5">
-            Our real estate is virtual property you can purchase on a metaverse
-            platform
+           Effortlessly manage your properties, tenants, and maintenance requests 
+           with our all-in-one solution.
           </p>
           <Button className="m-0 my-3 px-5 py-2 fs-5 fw-bold">Explore</Button>
           <div

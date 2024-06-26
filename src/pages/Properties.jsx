@@ -142,22 +142,22 @@ function Properties() {
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
                   <h5 className="mt-2 text-white fw-normal">
-                    Cottage «Forrest 1»
+                    Cascade Apartments
                   </h5>
-                  <p className="gray-90">@Red Oak Realty</p>
+                  <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
                       <CountDown h={9} m={45} s={8} />
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">29.71 ETH</h6>
+                      <h6 className="text-white">$29.71</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>
                 </Card.Body>
               </Card>
-            </SwiperSlide>
+            </SwiperSlide> 
             <SwiperSlide>
               {" "}
               <Card className="bg-black-100 rounded">
@@ -166,22 +166,19 @@ function Properties() {
                     <Card.Img
                       variant="top"
                       alt="img"
-                      src={require("../images/properties/pexels-stan-krotov-12737424 1.webp")}
+                      src={require("../images/properties/house_big.webp")}
                     />
-                    <i
-                      className="fa-solid fa-heart like text-danger"
-                      onClick={like}
-                    ></i>
+                    <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">Freshness</h5>
-                  <p className="gray-90">@ERA Ukraine Real Estate</p>
+                  <h5 className="mt-2 text-white fw-normal">Denkell Apartments</h5>
+                  <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
-                      <CountDown h={29} m={15} s={10} />
+                      <CountDown h={23} m={16} s={11} />
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">14.81 ETH</h6>
+                      <h6 className="text-white">$17.31</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>
@@ -200,155 +197,15 @@ function Properties() {
                     />
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">Wish house</h5>
-                  <p className="gray-90">@UA real estate agency</p>
+                  <h5 className="mt-2 text-white fw-normal">Sky_ville Apartments</h5>
+                  <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
                       <CountDown h={23} m={6} s={1} />
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">16.62 ETH</h6>
-                      <span className="gray-90">Current Bid</span>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <Card className="bg-black-100 rounded">
-                <Card.Body className="p-2">
-                  <div className="rounded overflow-hidden position-relative">
-                    <Card.Img
-                      variant="top"
-                      alt="img"
-                      src={require("../images/properties/david-kovalenko-9-qFzV9a2Zc-unsplash.webp")}
-                    />
-                    <i className="fa-regular fa-heart like" onClick={like}></i>
-                  </div>
-                  <h5 className="mt-2 text-white fw-normal">Spruce</h5>
-                  <p className="gray-90">@Dream House</p>
-                  <div className="d-flex">
-                    <div className="me-3">
-                      <CountDown h={10} m={30} s={58} />
-                      <span className="gray-90">Remaining Time</span>
-                    </div>
-                    <div>
-                      <h6 className="text-white">17.01 ETH</h6>
-                      <span className="gray-90">Current Bid</span>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <Card className="bg-black-100 rounded">
-                <Card.Body className="p-2">
-                  <div className="rounded overflow-hidden position-relative">
-                    <Card.Img
-                      variant="top"
-                      alt="img"
-                      src={require("../images/properties/house_big-1.webp")}
-                    />
-                    <i className="fa-regular fa-heart like" onClick={like}></i>
-                  </div>
-                  <h5 className="mt-2 text-white fw-normal">Residence Rybna</h5>
-                  <p className="gray-90">@UA real estate agency</p>
-                  <div className="d-flex">
-                    <div className="me-3">
-                      <CountDown h={18} m={21} s={8} />
-                      <span className="gray-90">Remaining Time</span>
-                    </div>
-                    <div>
-                      <h6 className="text-white">29.71 ETH</h6>
-                      <span className="gray-90">Current Bid</span>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <Card className="bg-black-100 rounded">
-                <Card.Body className="p-2">
-                  <div className="rounded overflow-hidden position-relative">
-                    <Card.Img
-                      variant="top"
-                      alt="img"
-                      src={require("../images/properties/house_big.webp")}
-                    />
-                    <i className="fa-regular fa-heart like" onClick={like}></i>
-                  </div>
-                  <h5 className="mt-2 text-white fw-normal">Blue Sky</h5>
-                  <p className="gray-90">@ERA Ukraine Real Estate</p>
-                  <div className="d-flex">
-                    <div className="me-3">
-                      <CountDown h={23} m={16} s={11} />
-                      <span className="gray-90">Remaining Time</span>
-                    </div>
-                    <div>
-                      <h6 className="text-white">17.31 ETH</h6>
-                      <span className="gray-90">Current Bid</span>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <Card className="bg-black-100 rounded">
-                <Card.Body className="p-2">
-                  <div className="rounded overflow-hidden position-relative">
-                    <Card.Img
-                      variant="top"
-                      alt="img"
-                      src={require("../images/properties/picture-of-a-wooden-building-in-the-forest.webp")}
-                    />
-                    <i className="fa-regular fa-heart like" onClick={like}></i>
-                  </div>
-                  <h5 className="mt-2 text-white fw-normal">
-                    Cottage «Forrest 1»
-                  </h5>
-                  <p className="gray-90">@Red Oak Realty</p>
-                  <div className="d-flex">
-                    <div className="me-3">
-                      <CountDown h={9} m={45} s={8} />
-                      <span className="gray-90">Remaining Time</span>
-                    </div>
-                    <div>
-                      <h6 className="text-white">29.71 ETH</h6>
-                      <span className="gray-90">Current Bid</span>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <Card className="bg-black-100 rounded">
-                <Card.Body className="p-2">
-                  <div className="rounded overflow-hidden position-relative">
-                    <Card.Img
-                      variant="top"
-                      alt="img"
-                      src={require("../images/properties/pexels-stan-krotov-12737424 1.webp")}
-                    />
-                    <i
-                      className="fa-solid fa-heart like text-danger"
-                      onClick={like}
-                    ></i>
-                  </div>
-                  <h5 className="mt-2 text-white fw-normal">Freshness</h5>
-                  <p className="gray-90">@ERA Ukraine Real Estate</p>
-                  <div className="d-flex">
-                    <div className="me-3">
-                      <CountDown h={29} m={15} s={10} />
-                      <span className="gray-90">Remaining Time</span>
-                    </div>
-                    <div>
-                      <h6 className="text-white">14.81 ETH</h6>
+                      <h6 className="text-white">$16.62</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>
@@ -367,15 +224,15 @@ function Properties() {
                     />
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">Wish house</h5>
-                  <p className="gray-90">@UA real estate agency</p>
+                  <h5 className="mt-2 text-white fw-normal">Four_seas Apartments</h5>
+                  <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
                       <CountDown h={23} m={6} s={1} />
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">16.62 ETH</h6>
+                      <h6 className="text-white">$16.62</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>
@@ -394,69 +251,15 @@ function Properties() {
                     />
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">Spruce</h5>
-                  <p className="gray-90">@Dream House</p>
+                  <h5 className="mt-2 text-white fw-normal">Spruce Apartments</h5>
+                  <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
                       <CountDown h={10} m={30} s={58} />
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">17.01 ETH</h6>
-                      <span className="gray-90">Current Bid</span>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <Card className="bg-black-100 rounded">
-                <Card.Body className="p-2">
-                  <div className="rounded overflow-hidden position-relative">
-                    <Card.Img
-                      variant="top"
-                      alt="img"
-                      src={require("../images/properties/house_big-1.webp")}
-                    />
-                    <i className="fa-regular fa-heart like" onClick={like}></i>
-                  </div>
-                  <h5 className="mt-2 text-white fw-normal">Residence Rybna</h5>
-                  <p className="gray-90">@UA real estate agency</p>
-                  <div className="d-flex">
-                    <div className="me-3">
-                      <CountDown h={18} m={21} s={8} />
-                      <span className="gray-90">Remaining Time</span>
-                    </div>
-                    <div>
-                      <h6 className="text-white">29.71 ETH</h6>
-                      <span className="gray-90">Current Bid</span>
-                    </div>
-                  </div>
-                </Card.Body>
-              </Card>
-            </SwiperSlide>
-            <SwiperSlide>
-              {" "}
-              <Card className="bg-black-100 rounded">
-                <Card.Body className="p-2">
-                  <div className="rounded overflow-hidden position-relative">
-                    <Card.Img
-                      variant="top"
-                      alt="img"
-                      src={require("../images/properties/house_big.webp")}
-                    />
-                    <i className="fa-regular fa-heart like" onClick={like}></i>
-                  </div>
-                  <h5 className="mt-2 text-white fw-normal">Blue Sky</h5>
-                  <p className="gray-90">@ERA Ukraine Real Estate</p>
-                  <div className="d-flex">
-                    <div className="me-3">
-                      <CountDown h={23} m={16} s={11} />
-                      <span className="gray-90">Remaining Time</span>
-                    </div>
-                    <div>
-                      <h6 className="text-white">17.31 ETH</h6>
+                      <h6 className="text-white">$17.01</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>

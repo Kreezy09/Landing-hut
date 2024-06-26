@@ -13,12 +13,11 @@ function AboutUs() {
         >
           <AnimationTitles title="What is TMS?" className="title" />
           <p className="gray-50 mb-5">
-            As new technologies like cryptocurrency develop, the real estate
-            sector is changing drastically. It is important to understand both
-            how these technologies and the traditional real estate market work.
-            Governments are unable to comprehend the rapid advancement of
-            technology and modify their legal frameworks to accommodate it fast
-            enough.
+          The Tenant Management System (TMS) in our property management application 
+          is designed to streamline tenant-related processes by offering comprehensive tenant profiles, 
+          seamless communication, and efficient rent collection. It also facilitates easy management of 
+          maintenance requests, secure document storage, and insightful reporting and analytics. With TMS, 
+          you can ensure compliance with regulations, conduct tenant screenings, and maintain positive tenant relationships effortlessly.
           </p>
           <Button variant="primary ms-0">Read More</Button>
         </motion.div>
