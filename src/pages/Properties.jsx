@@ -53,40 +53,40 @@ function Properties() {
             }}
           >
             <SwiperSlide>
-              <Button className="ms-0 bg-black-100 border-0" onClick={active}>
+              <Button className="ms-0 bg-white-100 border-0" onClick={active}>
                 All
               </Button>
             </SwiperSlide>
             <SwiperSlide>
               <Button
-                className="ms-0 bg-black-100 border-0 active"
+                className="ms-0 bg-white-100 border-0 active"
                 onClick={active}
               >
                 Cottage
               </Button>
             </SwiperSlide>
             <SwiperSlide>
-              <Button className="ms-0 bg-black-100 border-0" onClick={active}>
+              <Button className="ms-0 bg-white-100 border-0" onClick={active}>
                 Chalet
               </Button>
             </SwiperSlide>
             <SwiperSlide>
-              <Button className="ms-0 bg-black-100 border-0" onClick={active}>
+              <Button className="ms-0 bg-white-100 border-0" onClick={active}>
                 Manor
               </Button>
             </SwiperSlide>
             <SwiperSlide>
-              <Button className="ms-0 bg-black-100 border-0" onClick={active}>
+              <Button className="ms-0 bg-white-100 border-0" onClick={active}>
                 Penthouse
               </Button>
             </SwiperSlide>
             <SwiperSlide>
-              <Button className="ms-0 bg-black-100 border-0" onClick={active}>
+              <Button className="ms-0 bg-white-100 border-0" onClick={active}>
                 Farmhouse
               </Button>
             </SwiperSlide>
             <SwiperSlide>
-              <Button className="ms-0 bg-black-100 border-0" onClick={active}>
+              <Button className="ms-0 bg-white-100 border-0" onClick={active}>
                 Duplex
               </Button>
             </SwiperSlide>
@@ -131,7 +131,7 @@ function Properties() {
           >
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-white-100 rounded">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -141,7 +141,7 @@ function Properties() {
                     />
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">
+                  <h5 className="mt-2 fw-normal">
                     Cascade Apartments
                   </h5>
                   <p className="gray-90">@TECHX nest_quest agency</p>
@@ -151,7 +151,7 @@ function Properties() {
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">$29.71</h6>
+                      <h6 className="">$29.71</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>
@@ -160,7 +160,7 @@ function Properties() {
             </SwiperSlide> 
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-white-100 rounded">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -170,7 +170,7 @@ function Properties() {
                     />
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">Denkell Apartments</h5>
+                  <h5 className="mt-2 fw-normal">Denkell Apartments</h5>
                   <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
@@ -178,7 +178,7 @@ function Properties() {
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">$17.31</h6>
+                      <h6 className="">$17.31</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>
@@ -187,7 +187,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-white-100 rounded">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -197,7 +197,7 @@ function Properties() {
                     />
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">Sky_ville Apartments</h5>
+                  <h5 className="mt-2 fw-normal">Sky_ville Apartments</h5>
                   <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
@@ -205,7 +205,7 @@ function Properties() {
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">$16.62</h6>
+                      <h6 className="">$16.62</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>
@@ -214,7 +214,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-white-100 rounded">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -224,7 +224,7 @@ function Properties() {
                     />
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">Four_seas Apartments</h5>
+                  <h5 className="mt-2 fw-normal">Four_seas Apartments</h5>
                   <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
@@ -232,7 +232,7 @@ function Properties() {
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">$16.62</h6>
+                      <h6 className="">$16.62</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>
@@ -241,7 +241,7 @@ function Properties() {
             </SwiperSlide>
             <SwiperSlide>
               {" "}
-              <Card className="bg-black-100 rounded">
+              <Card className="bg-white-100 rounded">
                 <Card.Body className="p-2">
                   <div className="rounded overflow-hidden position-relative">
                     <Card.Img
@@ -251,7 +251,7 @@ function Properties() {
                     />
                     <i className="fa-regular fa-heart like" onClick={like}></i>
                   </div>
-                  <h5 className="mt-2 text-white fw-normal">Spruce Apartments</h5>
+                  <h5 className="mt-2 fw-normal">Spruce Apartments</h5>
                   <p className="gray-90">@TECHX nest_quest agency</p>
                   <div className="d-flex">
                     <div className="me-3">
@@ -259,7 +259,7 @@ function Properties() {
                       <span className="gray-90">Remaining Time</span>
                     </div>
                     <div>
-                      <h6 className="text-white">$17.01</h6>
+                      <h6 className="">$17.01</h6>
                       <span className="gray-90">Current Bid</span>
                     </div>
                   </div>

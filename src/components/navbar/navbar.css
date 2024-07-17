@@ -7,7 +7,7 @@
 }
 
 .nav-link {
-  color: white;
+  /*color: white;*/
   letter-spacing: 0.3px;
 }
 
@@ -23,7 +23,7 @@
   background-image: none;
   width: 35px;
   height: 2px;
-  background-color: white;
+  /*background-color: white;*/
   border-radius: 25px;
   position: relative;
   -webkit-border-radius: 25px;
@@ -38,7 +38,7 @@
   width: 100%;
   height: 100%;
   top: -12px;
-  background-color: white;
+  /*background-color: white;*/
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -53,7 +53,7 @@
   width: 100%;
   height: 100%;
   bottom: -12px;
-  background-color: white;
+  /*background-color: white;*/
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -62,7 +62,7 @@
 }
 
 .navbar .container div .fa-heart {
-  color: white;
+  /*color: white;*/
   font-size: 20px;
   position: relative;
 }
@@ -76,7 +76,8 @@
   top: -1px;
   right: -3px;
   background-color: red;
-  border: 3px solid #121420;
+  /*border: 3px solid #121420;*/
+  border: 3px solid #FFFFFF;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -92,6 +93,17 @@
   padding: 7px 32px;
   font-weight: 500;
   margin-left: 50px;
+  background-color: #7E56DA;
+  border-color: #7E56DA;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary:active:focus {
+  background-color: #603EBB;
+  border-color: #603EBB;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.hover, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: #603EBB;
+    border-color: #603EBB;
 }
 
 @media (max-width: 992px) {

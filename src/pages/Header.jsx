@@ -27,7 +27,7 @@ function Loading() {
           </p>
           <Button className="m-0 my-3 px-5 py-2 fs-5 fw-bold">Explore</Button>
           <div
-            style={{ color: "white" }}
+            // style={{ color: "white" }}
             className="d-none d-md-flex justify-content-between align-items-center my-4"
           >
             <div>
@@ -51,7 +51,7 @@ function Loading() {
           className="w-100 my-5"
         >
           <div className="cards">
-            <Card className="bg-black-100 rounded">
+            <Card className="bg-white-100 rounded">
               <Card.Body className="p-2">
                 <div className="rounded overflow-hidden position-relative">
                   <Card.Img
@@ -61,7 +61,7 @@ function Loading() {
                   />
                   <i className="fa-regular fa-heart like" onClick={like}></i>
                 </div>
-                <h5 className="mt-2 text-white fw-normal">Cascade Apartments</h5>
+                <h5 className="mt-2 fw-normal">Cascade Apartments</h5>
                 <p className="gray-90">@TECHX nest_quest agency</p>
                 <div className="d-flex">
                   <div className="me-3">
@@ -69,13 +69,13 @@ function Loading() {
                     <span className="gray-90">Remaining Time</span>
                   </div>
                   <div>
-                    <h6 className="text-white">$15.67</h6>
+                    <h6 className="">$15.67</h6>
                     <span className="gray-90">Current Bid</span>
                   </div>
                 </div>
               </Card.Body>
             </Card>
-            <Card className="bg-black-100">
+            <Card className="bg-white-100">
               <Card.Body className="p-2">
                 <div className="rounded overflow-hidden position-relative">
                   <Card.Img
@@ -85,7 +85,7 @@ function Loading() {
                   />
                   <i className="fa-regular fa-heart like" onClick={like}></i>
                 </div>
-                <h5 className="mt-2 text-white fw-normal">Blue Sky</h5>
+                <h5 className="mt-2  fw-normal">Blue Sky</h5>
                 <p className="gray-90">@TECHX nest_quest agency</p>
                 <div className="d-flex">
                   <div className="me-3">
@@ -93,7 +93,7 @@ function Loading() {
                     <span className="gray-90">Remaining Time</span>
                   </div>
                   <div>
-                    <h6 className="text-white">$17.31</h6>
+                    <h6 className="">$17.31</h6>
                     <span className="gray-90">Current Bid</span>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ function Loading() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
-          style={{ color: "white" }}
+          // style={{ color: "white" }}
           className="d-md-none d-flex justify-content-between align-items-center my-4 features"
         >
           <div>

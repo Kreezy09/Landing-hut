@@ -35,7 +35,7 @@ function Join() {
             <img src={require("../images/illustration/01.webp")} alt="img" />
             <AnimationTitles
               title="Rent Collection"
-              className="text-white mb-4 mt-5 h4"
+              className="mb-4 mt-5 h4"
             />
             <p className="gray-50">
               Simplify rent payments with secure and convenient M-Pesa 
@@ -47,7 +47,7 @@ function Join() {
             <img src={require("../images/illustration/02.webp")} alt="img" />
             <AnimationTitles
               title="Analytics"
-              className="text-white mb-4 mt-5 h4"
+              className=" mb-4 mt-5 h4"
             />
             <p className="gray-50">
               Gain valuable insights with detailed reports and analytics.
@@ -58,7 +58,7 @@ function Join() {
             <img src={require("../images/illustration/03.webp")} alt="img" />
             <AnimationTitles
               title="Properties"
-              className="text-white mb-4 mt-5 h4"
+              className=" mb-4 mt-5 h4"
             />
             <p className="gray-50">
               Handle multiple properties seamlessly within one platform.
@@ -69,7 +69,7 @@ function Join() {
             <img src={require("../images/illustration/04.webp")} alt="img" />
             <AnimationTitles
               title="Maintenance"
-              className="text-white mb-4 mt-5 h4"
+              className=" mb-4 mt-5 h4"
             />
             <p className="gray-50">
               Streamline maintenance requests for quick and effective resolutions.
